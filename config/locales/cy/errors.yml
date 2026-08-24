@@ -1,0 +1,60 @@
+cy:
+  activemodel:
+    errors:
+      messages:
+        name: nid yw'n enw dilys
+        blank: 'yn ofynnol '
+        invalid: Ddim yn ddilys
+        too_short: Rhy fyr (y lleiafswm yw %{count} o nodau)
+      models:
+        prisoner_step:
+          attributes:
+            number:
+              invalid: Ddim yn ddilys
+            date_of_birth:
+              inclusion: Ddim yn ddyddiad dilys
+          api:
+            prisoner_does_not_exist: 'Nid yw manylion unrhyw garcharor yn cyd-fynd
+              â''r manylion a roddwyd gennych, gofynnwch i''r carcharor wirio bod
+              y manylion yn gywir '
+        visitors_step:
+          attributes:
+            general:
+              too_many_adults: Gallwch sicrhau lle i uchafswm o %{max} ymwelydd dros
+                %{age} oed ar yr ymweliad hwn
+              too_many_visitors: Gallwch sicrhau lle i uchafswm o %{max} ymwelydd
+              too_few_visitors: 'Rhaid bod o leiaf 1 ymwelydd '
+        visitors_step/visitor:
+          attributes:
+            date_of_birth:
+              inclusion: ddim yn ddyddiad dilys
+              lead_visitor_age: Mae'n rhaid i'r sawl sy'n gwneud cais am ymweliad
+                fod dros %{min} oed
+  activerecord:
+    errors:
+      models:
+        prison:
+          duplicate_unbookable_date: 'Nid yw''n bosib clicio ddwywaith ar ddyddiad
+            sydd ddim ar gael  '
+          unbookable_and_anomalous_conflict: Nid yw'n anarferol i gael dyddiad sydd
+            ddim ar gael
+  email_checker:
+    errors:
+      unparseable: nid yw hwn yn gyfeiriad dilys
+      domain_dot: 'nid yw hwn yn gyfeiriad dilys oherwydd mae''n dechrau neu''n gorffen
+        gyda dot '
+      malformed: nid yw hwn yn gyfeiriad dilys
+      no_mx_record: nid yw hwn yn ymddangos yn ddilys
+      spam_reported: mae angen edrych ar hyn oherwydd bod negeseuon blaenorol wedi'u
+        nodi fel sbam. Edrychwch yn eich ffolder sbam hefyd
+      bounced: 'mae angen edrych ar hyn oherwydd bod negeseuon wedi cael eu hanfon
+        yn ôl yn y gorffennol '
+
+  age_validator:
+    errors:
+      invalid_date: yn ddyddiad annilys
+      range: rhaid bod llai na %{max} mlynedd yn ôl
+
+    prisoner_number_validator:
+      errors:
+        format: Rhowch rif carcharor. Dylai fod yn 7 nod gan ddechrau gyda llythyr.

@@ -1,0 +1,76 @@
+{
+  "name": "prison-visits-public",
+  "scripts": {},
+  "env": {
+    "GA_TRACKING_ID": {
+      "required": true
+    },
+    "LANG": {
+      "required": true
+    },
+    "PRISON_VISITS_API": {
+      "required": true
+    },
+    "RACK_ENV": {
+      "required": true
+    },
+    "RAILS_ENV": {
+      "required": true
+    },
+    "RAILS_SERVE_STATIC_FILES": {
+      "required": true
+    },
+    "SECRET_KEY_BASE": {
+      "required": true
+    },
+    "SENTRY_DSN": {
+      "required": true
+    },
+    "SENTRY_JS_DSN": {
+      "required": true
+    },
+    "STAFF_SERVICE_URL": {
+      "required": true
+    },
+    "SERVICE_URL": {
+      "required": true
+    },
+    "HEROKU_APP_NAME": {
+      "required": true
+    },
+    "HEROKU_PARENT_APP_NAME": {
+      "required": true
+    },
+    "GOV_NOTIFY_API_KEY": {
+      "required": true
+    },
+    "NOMIS_USER_OAUTH_CLIENT_ID": {
+      "required": true
+    },
+    "NOMIS_USER_OAUTH_CLIENT_SECRET": {
+      "required": true
+    },
+    "USE_STAFF_API": {
+      "required": true
+    },
+    "NOMIS_OAUTH_CLIENT_ID": {
+      "required": true
+    },
+    "NOMIS_OAUTH_CLIENT_SECRET": {
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+    "heroku-postgresql"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/ruby"
+    }
+  ]
+}

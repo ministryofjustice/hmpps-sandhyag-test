@@ -1,0 +1,335 @@
+cy:
+  pvb1_paths:
+    status:
+      title: 'Ymweliad wedi bod '
+      body_md: 'Mae''r ymweliad hwn wedi bod ac mae''r wybodaeth wedi cael ei dileu.
+
+
+        Gallwch
+
+        [ddechrau cais newydd i ymweld â rhywun yn y carchar](%{new_booking_url})
+
+        neu gallwch ffonio i drefnu eich ymweliad. Ewch i''r system dod o hyd i garchar
+
+        [prison finder](%{prison_finder_url}) am fanylion cyswllt.
+
+'
+  errors:
+    '404':
+      title: 'Ni ellir dod o hyd i''r dudalen hon '
+      body_md: 'Gallwch ddechrau cais newydd i ymweld â rhywun yn y carchar
+
+        [start a new prison visit request](%{new_booking_url})
+
+        neu drefnu eich ymweliad dros y ffôn yn lle. Ewch i''r system dod o hyd i
+        garchar
+
+        [prison finder](%{prison_finder_url}) i gael manylion cyswllt.
+
+'
+    '500':
+      title: Rydym yn cael problemau technegol
+      body_md: 'Nid yw''r system trefnu i ymweld â rhywun yn y carchar ar gael ar
+        hyn o bryd, ond rydym yn gweithio''n galed i ddatrys y broblem.
+
+
+        Rhowch gynnig arall arni yn hwyrach ymlaen neu trefnwch eich ymweliad dros
+        y ffôn. Ewch i''r system dod o hyd i garchar [prison finder](%{prison_finder_url})
+        i gael manylion cyswllt.
+
+
+'
+    '503':
+      title: 'Rydym yn cael problemau technegol '
+      body_md: 'Nid yw''r system trefnu i ymweld â rhywun yn y carchar ar gael oherwydd
+        ein bod yn gwneud gwaith cynnal  a chadw wedi''i gynllunio ymlaen llaw.
+
+
+        Rhowch gynnig arall arni yn hwyrach ymlaen neu trefnwch eich ymweliad dros
+        y ffôn. Ewch i''r system dod o hyd i garchar [prison finder](%{prison_finder_url})
+        i gael manylion cyswllt.
+
+
+'
+  pages:
+    unsubscribe:
+      title: 'Pam y cefais yr e-bost hwn? '
+      you_received_an_email: Rydych wedi cael e-bost gan %{email}
+      why: 'Yn ôl pob tebyg, mae hyn oherwydd eich bod wedi gofyn i ymweld â charcharor. '
+      confirmation: Byddwn yn anfon neges e-bost atoch i gadarnhau eich ymweliad,
+        felly gwnewch yn siŵr eich bod yn ychwanegu'r cyfeiriad e-bost hwn at eich
+        llyfr cyfeiriadau neu restr anfonwyr diogel.
+    privacy_policy:
+      title: Polisi preifatrwydd
+      body_html: |
+        <p>Mae’r polisi preifatrwydd hwn yn esbonio pam mae Gwasanaeth Carchardai a Phrawf EM (HMPPS) yn casglu data personol pan fyddwch yn defnyddio’r gwasanaeth ‘Ymweld â rhywun yn y carchar’.</p>
+        <p>Mae’r polisi hwn hefyd yn egluro:</p>
+        <ul class="list list-bullet">
+          <li>sut rydym yn storio'r data hwn</li>
+          <li>yr hyn a wnawn ag ef</li>
+          <li>sut y gallwch gael copi o'r data sydd gennym amdanoch</li>
+          <li>sut gallwch chi gwyno os ydych chi’n meddwl ein bod ni wedi gwneud rhywbeth o’i le</li>
+        </ul>
+        <p>Rheolir y gwasanaeth hwn gan HMPPS, un o asiantaethau gweithredol y Weinyddiaeth Gyfiawnder (MOJ). Y Weinyddiaeth Gyfiawnder yw’r rheolydd data ar gyfer y wybodaeth bersonol sydd gennym.</p>       
+        <p>Mae HMPPS yn casglu ac yn prosesu data personol fel y gall ddarparu gwasanaethau carchar yn ddiogel, gan gynnwys y rhai sy’n ymwneud â rheoli ac adsefydlu troseddwyr.</p>
+        <h3 class="heading-medium" id="ynglyn-a-gwybodaeth-bersonol">Ynglŷn â gwybodaeth bersonol</h3>       
+        <p>Gwybodaeth amdanoch chi fel unigolyn yw data personol. Gall fod yn enw, cyfeiriad neu rif ffôn. Gall hefyd gynnwys gwybodaeth am y person yr ydych yn gwneud cais i ymweld ag ef yn y carchar.</p>    
+        <p>Rydym yn gwybod pa mor bwysig yw hi i ddiogelu eich preifatrwydd a chydymffurfio â chyfreithiau diogelu data. Byddwn yn cadw eich data personol yn ddiogel a byddwn ond yn ei ddatgelu pan fo’n gyfreithlon gwneud hynny, neu gyda’ch caniatâd.</p>
+        <h3 class="heading-medium" id="mathau-o-ddata-personol-rydym-yn-ei-brosesu">Mathau o ddata personol rydym yn ei brosesu</h3>
+        <p>Dim ond data personol sy'n berthnasol i'r gwasanaethau yr ydym yn eu darparu i chi y byddwn yn eu prosesu. Mae hyn yn cynnwys:</p>        
+        <ul class="list list-bullet">
+          <li>eich enw, dyddiad geni, cyfeiriad e-bost a rhif ffôn</li>
+          <li>enw, dyddiad geni, rhif carcharor a lleoliad y person rydych am ymweld ag ef</li>
+          <li>enwau a dyddiadau geni unrhyw ymwelwyr ychwanegol</li>
+        </ul>
+        <p>Rydym hefyd yn casglu gwybodaeth defnydd safle sy'n ein galluogi i weld sut mae'r gwasanaeth yn cael ei ddefnyddio er mwyn caniatáu i ni ei wella. Nid yw'r wybodaeth hon yn cynnwys unrhyw ddata personol. Mae'n cynnwys:</p>
+        <ul class="list list-bullet">
+          <li>cwestiynau, ymholiadau neu adborth a adawwch os byddwch yn anfon neges trwy adborth</li>
+          <li>eich cyfeiriad IP, a manylion pa fersiwn o'r porwr gwe a ddefnyddiwyd gennych</li>
+          <li>gwybodaeth am sut rydych chi'n defnyddio'r wefan, gan ddefnyddio cwcis a thechnegau tagio tudalennau i'n helpu i wella'r wefan</li>
+        </ul>
+        <p>Mae hyn yn ein helpu i:</p>
+        <ul class="list list-bullet">
+          <li>gwella'r wefan trwy fonitro sut rydych chi'n ei defnyddio</li>
+          <li>ymateb i unrhyw adborth a anfonwch atom, os ydych wedi gofyn i ni wneud hynny</li>
+          <li>rhoi gwybodaeth i chi am wasanaethau lleol os dymunwch</li>
+        </ul>
+        <p>We can’t personally identify you using your site usage data.</p>        
+        <h3 class="heading-medium" id="pwrpas-prosesu-a-sail-gyfreithlon-y-broses">Pwrpas prosesu a sail gyfreithlon y broses</h3>
+        <p>Rydym yn casglu data personol fel y gallwch wneud cais i ymweld â rhywun yn y carchar. Efallai y byddwn hefyd yn defnyddio’r data i gysylltu â chi i gynnig y cyfle i chi gymryd rhan mewn ymchwil yn y dyfodol i wella ein gwasanaethau.</p>
+        <p>Mae angen y wybodaeth hon ar Garchardai a Sefydliadau Troseddwyr Ifanc er mwyn sicrhau bod ymweliadau'n ddiogel i ymwelwyr, troseddwyr a staff.</p>
+        <h3 class="heading-medium" id="gyda-phwy-y-gellir-rhannur-wybodaeth">Gyda phwy y gellir rhannu'r wybodaeth</h3>       
+        <p>Weithiau mae angen i ni rannu’r wybodaeth bersonol rydym yn ei phrosesu gyda’r unigolyn ei hun a hefyd gyda sefydliadau eraill. Lle bo angen, byddwn yn cydymffurfio â phob agwedd ar y deddfau data. Y sefydliadau rydym yn rhannu eich gwybodaeth bersonol â nhw yw:</p>
+        <ul class="list list-bullet">
+          <li>Ffurflenni'r Weinyddiaeth Gyfiawnder i gasglu adborth. Gweler eu telerau defnyddio.</li>
+          <li>GOV.UK Hysbysu i anfon negeseuon testun ac e-byst atoch. Gweler eu hysbysiad preifatrwydd.</li>
+          <li>ZenDesk i drin unrhyw adborth rydych chi'n ei adael. Gweler y telerau ac amodau sydd ynghlwm wrth y gwasanaeth hwn.</li>
+        </ul>
+        <h3 class="heading-medium" id="manylion-trosglwyddiadau-i-drydedd-wlad-a-mesurau-diogelu">Manylion trosglwyddiadau i drydedd wlad a mesurau diogelu</h3>      
+        <p>Mae’r holl ddata a gesglir gan y gwasanaeth hwn yn cael ei storio o fewn yr Ardal Economaidd Ewropeaidd (AEE). Fodd bynnag, oherwydd natur fyd-eang y rhyngrwyd, gall y data a anfonir i'r gronfa ddata ac ohoni fynd trwy wledydd y tu allan i'r AEE. Nid yw data’n cael ei storio mewn gwlad nad yw’n rhan o’r AEE. Bydd unrhyw drosglwyddiadau a wneir yn cydymffurfio'n llawn â phob agwedd ar y gyfraith diogelu data.</p>      
+        <h3 class="heading-medium" id="am-ba-mor-hir-rydym-yn-cadw-data">Am ba mor hir rydym yn cadw data</h3>       
+        <p>Cedwir data am saith mlynedd yn unol â pholisi cadw HMPPS.</p>
+        <h3 class="heading-medium" id="mynediad-at-wybodaeth-bersonol">Mynediad at wybodaeth bersonol</h3>   
+        <p>Gallwch ddarganfod a ydym yn cadw unrhyw ddata personol amdanoch trwy wneud ‘cais gwrthrych am wybodaeth’. I wneud cais gwrthrych am wybodaeth cysylltwch â:</p>
+        <p>Troseddwyr a chyn-droseddwyr;<br>
+          Cofrestrfa Branston<br>
+          Adeilad 16, S&T Store<br>
+          Ffordd Burton<br>
+          Branston<br>
+          Burton-on-Trent<br>
+          Swydd Stafford<br>
+          DE14 3EG</p>
+        <p>Pawb arall;<br>
+          Tîm Datgelu<br>
+          Pwynt postio 10.38<br>
+          102 Petty France<br>
+          Llundain<br>
+          SW1H 9AJ</p>
+        <h3 class="heading-medium" id="pan-fyddwn-yn-gofyn-i-chi-am-ddata-personol">Pan fyddwn yn gofyn i chi am ddata personol</h3>        
+        <p>Pryd bynnag y byddwn yn gofyn am ddata personol, rydym yn addo:</p>
+        <ul class="list list-bullet">
+          <li>dim ond gofyn am y wybodaeth sydd ei hangen arnom</li>
+          <li>ei gadw'n ddiogel a gwneud yn siŵr na all neb gael mynediad iddo oni bai bod awdurdod wedi'i awdurdodi</li>
+          <li>gwneud yn siŵr nad ydym yn cadw’r data yn hwy nag sydd angen</li>
+          <li>rhannu'r data gyda sefydliadau eraill at ddibenion cyfreithlon yn unig</li>
+          <li>ystyried unrhyw gais a wnewch i gywiro, rhoi’r gorau i storio neu ddileu eich data personol</li>
+        </ul>       
+        <p>Rydym hefyd yn addo ei gwneud yn hawdd i chi:</p>
+        <ul class="list list-bullet">
+          <li>dweud wrthym ar unrhyw adeg os ydych am i ni roi’r gorau i storio eich data personol</li>
+          <li>gwneud cwyn gyda'r awdurdod goruchwylio</li>
+        </ul>
+        <h3 class="heading-medium" id="sut-rydym-yn-rheoli-sesiynau-ar-lein">Sut rydym yn rheoli sesiynau ar-lein</h3>        
+        <p>Gellir defnyddio'r gwasanaeth hwn i wneud cais am ymweliad carchar. Mae eich sesiwn yn weithredol am 20 munud hyd yn oed os byddwch yn cau eich porwr, neu'n llywio i ffwrdd o'r gwasanaeth hwn. Yn ystod y cyfnod hwn, efallai y bydd gwybodaeth bersonol amdanoch yn weladwy i unrhyw un sydd â mynediad i'ch cyfrifiadur.</p>
+        <p>Cedwir eich data yn y cof yn ystod y sesiwn; caiff hwn ei glirio ar ôl 20 munud o anweithgarwch.</p>
+        <h3 class="heading-medium" id="mwy-o-wybodaethn">Mwy o wybodaeth</h3>    
+        <p>Gallwch gael mwy o fanylion ar:</p>
+        <ul class="list list-bullet">
+          <li>cytundebau sydd gennym gyda sefydliadau eraill ar gyfer rhannu gwybodaeth</li>
+          <li>pryd y gallwn drosglwyddo gwybodaeth bersonol heb ddweud wrthych, er enghraifft, i helpu i atal neu ganfod trosedd neu i gynhyrchu ystadegau dienw</li>
+          <li>cyfarwyddiadau a roddwn i staff ar sut i gasglu, defnyddio neu ddileu eich gwybodaeth bersonol</li>
+          <li>sut rydym yn gwirio bod y wybodaeth sydd gennym yn gywir ac yn gyfredol</li>
+          <li>sut i wneud cwyn</li>
+        </ul>
+        <p>I gael rhagor o wybodaeth am y materion uchod, cysylltwch â:</p>
+        <p>Swyddog Diogelu Data'r Weinyddiaeth Gyfiawnder<br>
+          Pwynt postio 10.38<br>
+          102 Petty France<br>
+          Llundain<br>
+          SW1H 9AJ</p>
+        <p>neu e-bostiwch: DPO@justice.gov.uk.</p>
+        <p>I gael rhagor o wybodaeth am sut a pham y caiff eich gwybodaeth ei phrosesu, gweler y wybodaeth a ddarparwyd pan wnaethoch chi ddefnyddio ein gwasanaethau neu pan gysylltwyd â ni.</p>
+        <h3 class="heading-medium" id="cwynion">Cwynion</h3>
+        <p>Pan fyddwn yn gofyn i chi am wybodaeth, byddwn yn cadw at y gyfraith. Os credwch fod eich gwybodaeth wedi cael ei thrin yn anghywir, gallwch gysylltu â’r Comisiynydd Gwybodaeth am gyngor annibynnol ar ddiogelu data yn:</p>
+        <p>Swyddfa'r Comisiynydd Gwybodaeth<br>
+          Ty Wycliffe<br>
+          Lôn y Dŵr<br>
+          Wilmslow<br>
+          sir Gaer<br>
+          SK9 5AF<br>
+          Ffôn: 0303 123 1113<br>
+          www.ico.org.uk</p>
+        <h3 class="heading-medium" id="newidiadau-ir-polisi-hwn">Newidiadau i'r polisi hwn</h3>
+        <p>Efallai y byddwn yn newid y polisi preifatrwydd hwn. Yn yr achos hwnnw, bydd y dyddiad ‘diweddaru diwethaf’ ar waelod y dudalen hon hefyd yn newid. Bydd unrhyw newidiadau i'r polisi preifatrwydd hwn yn berthnasol i chi a'ch data ar unwaith.</p>
+        <p>Os bydd y newidiadau hyn yn effeithio ar y ffordd y caiff eich data personol ei brosesu, bydd y Weinyddiaeth Gyfiawnder yn cymryd camau rhesymol i roi gwybod i chi.</p>
+        <p>Wedi ei ddiweddaru ddiwetha' ar 21 Mai 2024.</p>          
+    terms_and_conditions:
+      title: Telerau ac amodau
+      body_html: |
+        <p>Trwy ddefnyddio'r gwasanaeth cais digidol ymweliad carchar hwn rydych yn cytuno i'r telerau ac amodau hyn. Darllenwch nhw'n ofalus.</p>
+        <h3 class="heading-medium" id="cyffredinol">Cyffredinol</h3>
+        <p>Mae’r telerau ac amodau hyn yn effeithio ar eich hawliau a’ch atebolrwydd dan y
+          gyfraith. Maent yn llywodraethu’r defnydd a wnewch, a’r perthynas gyda’r gwasanaeth
+          digidol i wneud cais i ymweld â rhywun yn y carchar. Nid ydynt yn berthnasol wasanaethau eraill a ddarperir gan
+          y Weinyddiaeth Cyfiawnder (Gwasanaeth Carchardai EM), neu i unrhyw adran neu
+        wasanaeth arall sy’n gysylltiedig â’r gwasanaeth hwn.</p>
+        <p>Efallai y byddwn yn diweddaru’r telerau ac amodau hyn o dro i dro. Gall hyn ddigwydd
+          os oes newid yn y gyfraith neu i’r ffordd y mae’r gwasanaeth hwn yn gweithio. Os
+          oes newid, gofynnir i chi gytuno i’r telerau ac amodau
+          newydd y tro nesaf y byddwch yn mewngofnodi, fel y gallwch barhau i ddefnyddio’r
+        gwasanaeth hwn.</p>
+        <p>Os nad ydych yn cytuno i’r telerau ac amodau na’r polisi preifatrwydd a nodir
+        yn y ddogfen hon, ni ddylech ddefnyddio’r gwasanaeth hwn.</p>
+        <h3 class="heading-medium" id="cyfraith-berthnasol">Cyfraith berthnasol</h3>
+        <p>Bydd y defnydd a wnewch o’r gwasanaeth hwn, ac unrhyw anghydfod sy’n codi yn sgil hynny,
+          yn cael ei lywodraethu gan, a’i ddehongli yn unol â chyfreithiau Cymru
+        a Lloegr, gan gynnwys ond nid yn gyfyngedig i’r canlynol:</p>
+        <ul class="list list-bullet">
+          <li>Deddf Camddefnyddio Cyfrifiaduron 1990</li>
+          <li>Deddf Diogelu Data 1998</li>
+          <li>Deddf Galluedd Meddyliol 2005</li>
+        </ul>
+        <h3 class="heading-medium" id="sut-i-ddefnyddior-gwasanaeth-hwn-mewn-ffordd-gyfrifol">Sut i ddefnyddio’r gwasanaeth hwn mewn ffordd gyfrifol</h3>
+        <p>Mae peryglon ynghlwm wrth ddefnyddio cyfrifiadur a rennir, megis mewn caffi rhyngrwyd,
+          i ddefnyddio’r gwasanaeth hwn. Eich cyfrifoldeb chi yw bod yn ymwybodol o’r peryglon hyn
+          ac osgoi defnyddio unrhyw gyfrifiadur allai adael eich gwybodaeth bersonol
+          ar gael i eraill gael mynediad ati. Chi sy’n gyfrifol os byddwch yn dewis
+          i adael cyfrifiadur heb ei ddiogelu pan fyddwch yn y broses o wneud cais
+        i ymweld â rhywun yn y carchar.</p>
+        <p>Rydym yn gwneud ein gorau glas i wirio a phrofi’r gwasanaeth hwn pa bryd bynnag y byddwn yn
+          newid neu’n diweddaru unrhyw beth. Fodd bynnag, rhaid i chi gymryd camau eich hunan i ofalu a sicrhau nad yw’r
+          ffordd yr ydych yn cael mynediad at y gwasanaeth hwn yn eich gwneud yn agored i beryglon
+          firysau, codau cyfrifiaduron maleisus neu ffurfiau eraill o ymyrraeth allai
+        ddifrodi eich system gyfrifiadurol eich hun.</p>
+        <p>Ni ddylech gamddefnyddio ein gwasanaeth drwy gyflwyno firysau, ymwelwyr diwahoddiad,
+          mwydod, bomiau rhesymeg neu ddeunydd arall sy’n faleisus neu’n
+          niweidiol yn dechnolegol. Ni ddylech geisio cael mynediad heb awdurdod
+          i’n gwasanaeth, y system lle cedwir ein gwasanaeth nac unrhyw
+          weinydd, cyfrifiadur neu gronfa data sy’n gysylltiedig â’n gwasanaeth. Ni ddylech
+          ymosod ar ein safle drwy ymosodiad gwrthod gwasanaeth neu ymosodiad atal
+        gwasanaeth.</p>
+        <h3 class="heading-medium" id="ymwadiadl">Ymwadiad</h3>
+        <p>Nid ydym yn derbyn atebolrwydd am golled neu ddifrod a achosir gan ddefnyddwyr y gwasanaeth hwn, boed yn uniongyrchol, anuniongyrchol neu ganlyniadol, boed hynny oherwydd camwedd, tor-cytundeb neu fel arall. Mae hyn yn cynnwys colli incwm neu refeniw, busnes, elw neu gontractau, arbedion a ragwelir, data, ewyllys da, eiddo diriaethol neu amser a wastraffwyd mewn cysylltiad â’r gwasanaeth hwn neu unrhyw wefannau sy’n gysylltiedig ag ef ac unrhyw ddeunyddiau a bostiwyd arno. Ni fydd yr amod hwn yn atal hawliadau am golled neu ddifrod i'ch eiddo diriaethol nac unrhyw hawliadau eraill am golled ariannol uniongyrchol nad ydynt wedi'u heithrio gan unrhyw un o'r categorïau a nodir uchod.</p>
+        <p>Nid yw hyn yn effeithio ar ein hatebolrwydd am farwolaeth neu anaf personol sy'n deillio o'n hesgeulustod, na'n hatebolrwydd am gamliwio twyllodrus neu gamliwio ynghylch mater sylfaenol, nac unrhyw atebolrwydd arall na ellir ei eithrio na'i gyfyngu dan gyfraith berthnasol.</p>
+        <h3 class="heading-medium" id="cysylltwch-a-ni">Cysylltwch â ni</h3>
+        <p>Weinyddiaeth Gyfiawnderh<br>
+          Gwasanaethau Digidol<br>
+          11.51 102 Petty France<br>
+          Llundain<br>
+          SW1H 9AJ</p>
+    cookies:
+      title: Cwcis
+      body_html: |
+        <p>Mae'r System trefnu i ymweld â rhywun yn y Carchar (PVB) yn rhoi ffeiliau bychain (a elwir yn 'cwcis') ar 
+        eich cyfrifiadur i gasglu gwybodaeth am sut yr ydych yn pori'r safle.</p>
+        <p>Mae cwcis yn cael eu defnyddio i:</p>
+        <ul class="list list-bullet">
+          <li>fesur sut y byddwch yn defnyddio'r wefan fel y gellir ei diweddaru a'i gwella ar sail eich anghenion</li>
+          <li>cofio'r hysbysiadau yr ydych wedi'u gweld fel na fyddwn yn eu dangos i chi eto</li>
+        </ul>
+        <div class="panel panel-border-wide">Ni ddefnyddir cwcis PVB i gael gwybod pwy ydych chi’n bersonol.</div>
+        <p><p>Fel arfer, fe welwch neges ar y safle cyn y byddwn yn storio cwcis ar eich cyfrifiadur.</p></p>
+        <p>I gael gwybod mwy am reoli cwcis <a href="http://www.aboutcookies.org/">how to manage cookies.</a></p>
+        <h2 class="heading-large">Sut y defnyddir cwcis ar PVB</h2>
+        <h3 class="heading-medium">Mesur y defnydd a wneir o’r wefan (Google Analytics)</h3>
+        <p>Rydym yn defnyddio meddalwedd Google Analytics i gasglu gwybodaeth am sut yr ydych yn
+        defnyddio PVB. Rydym yn gwneud hyn i helpu sicrhau bod y safle’n cwrdd ag anghenion
+        ei defnyddwyr a’n helpu i wneud gwelliannau.</p>
+        <fieldset>
+        <legend> 
+          A ydych yn cytuno i’r Weinyddiaeth Gyfiawnder ac adrannau eraill o Lywodraeth y DU  i ddefnyddio Google Analytics i helpu wella’r ‘Gwasanaeth Ymweliadau Carchar’?
+        </legend>
+        <div id="id_accept_cookies-wrapper">
+          <div class="multiple-choice">
+            <input id="accept_cookies-yes" type="radio" name="accept_cookies" value="yes">
+            <label for="accept_cookies-yes" id="id_accept_cookies-label">Ydw</label>
+          </div>
+          <div class="multiple-choice">
+            <input id="accept_cookies-no" type="radio" name="accept_cookies" value="no">
+            <label for="accept_cookies-no" id="id_accept_cookies-label">Nac ydw</label>
+          </div>
+        </div>
+        </fieldset>
+        <input id="save_cookie_preference" class="button" type="submit" value= "Cadw newidiadau">
+        <p>Google Analytics stores information about:</p>
+        <p>Mae Google Analytics yn storio gwybodaeth am:</p>
+        <ul class="list list-bullet">
+          <li>y tudalennau yr ydych wedi ymweld â nhw ar PVB - faint o amser yr ydych wedi’i dreulio ar bob tudalen PVB</li>
+          <li>sut y daethoch o hyd i’r safle</li>
+          <li>beth rydych yn glicio arno tra byddwch ar y safle</li>
+        </ul>
+        <div class="panel panel-border-wide">Nid ydym yn caniatáu Google i ddefnyddio na rhannu ein data dadansoddol.</div>
+        <p>Mae Google Analytics yn gosod y cwcis canlynol:</p>
+        <table class="responsive">
+          <thead>
+            <tr>
+              <th>Enw</th>
+              <th>Pwrpas</th>
+              <th>Dod i ben</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td aria-label="Name">_ga</td>
+              <td aria-label="Pwrpas">Pennu’r nifer o ymwelwyr unigryw i’r safle</td>
+              <td aria-label="Dod i ben">2 flynedd</td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="push-top">Gallwch ddewis i optio allan rhag defnyddio cwcis Google Analytics 
+          <a href="https://tools.google.com/dlpage/gaoptout">opt out of Google Analytics cookies.</a>
+        </p>
+        <h3 class="heading-medium" id="ein-neges-rhagarweiniol">Ein neges rhagarweiniol</h3>
+        <p>Efallai y byddwch yn gweld neges i’ch croesawu pan fyddwch yn ymweld â thudalen PVB am y tro cyntaf.  Byddwn
+        yn storio cwci fel bod eich cyfrifiadur yn gwybod eich bod wedi gweld y neges ac i wybod i beidio 
+        â’i ddangos i chi eto.</p>
+        <table class="responsive">
+          <thead>
+            <tr>
+              <th>Enw</th>
+              <th>Pwrpas</th>
+              <th>Dod i ben</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td aria-label="Name">seen_cookie_message</td>
+              <td aria-label="Pwrpas">Cadw neges i roi gwybod i ni eich bod wedi gweld ein neges cwci</td>
+              <td aria-label="Dod i ben">1 mis</td>
+            </tr>
+          </tbody>
+        </table>
+        <h3 class="heading-medium" id="sesiwn">Sesiwn</h3>
+        <p>Pan fyddwch chi’n defnyddio’r gwasanaeth “Archebu Ymweliadau Prison”, byddwn yn gosod cwci ar eich cyfrifiadur 
+        i gofio sut yr ydych chi’n symud ymlaen drwy’r ffurflenni.</p>
+        <table class="responsive">
+          <thead>
+            <tr>
+              <th>Enw</th>
+              <th>Pwrpas</th>
+              <th>Dod i ben</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td aria-label="Name">pvbs</td>
+              <td aria-label="Pwrpas">Storio manylion carcharor, ymwelydd a manylion yr ymweliad</td>
+              <td aria-label="Dod i ben">20 munud</td>
+            </tr>
+          <tr>
+            <td aria-label="Name">accepted_cookies</td>
+            <td aria-label="Pwrpas">daves caniatâd cwci</td>
+            <td aria-label="Dod i ben">1 flwyddyn</td>
+          </tr>
+          </tbody>
+        </table>

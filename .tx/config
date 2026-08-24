@@ -1,0 +1,26 @@
+[main]
+host = https://www.transifex.com
+
+[prison-visits-booking.defaults]
+file_filter = config/locales/<lang>/defaults.yml
+source_file = config/locales/en/defaults.yml
+source_lang = en
+type = YML
+
+[prison-visits-booking.errors]
+file_filter = config/locales/<lang>/errors.yml
+source_file = config/locales/en/errors.yml
+source_lang = en
+type = YML
+
+[prison-visits-booking.pages]
+file_filter = config/locales/<lang>/pages.yml
+source_file = config/locales/en/pages.yml
+source_lang = en
+type = YML
+
+[prison-visits-booking.views]
+file_filter = config/locales/<lang>/views.yml
+source_file = config/locales/en/views.yml
+source_lang = en
+type = YML

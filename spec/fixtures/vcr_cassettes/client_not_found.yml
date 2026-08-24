@@ -1,0 +1,120 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:4000/api/prisons/missing
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.56.0
+      Accept:
+      - application/json
+      Accept-Language:
+      - en
+      X-Request-Id:
+      - unique_id
+  response:
+    status:
+      code: 404
+      message: ''
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+      X-Request-Id:
+      - unique_id
+      X-Runtime:
+      - '0.070579'
+    body:
+      encoding: UTF-8
+      string: '{"message":"Not found"}'
+    http_version:
+  recorded_at: Wed, 21 Sep 2016 15:43:25 GMT
+- request:
+    method: get
+    uri: http://localhost:4000/api/prisons/missing
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.56.0
+      Accept:
+      - application/json
+      Accept-Language:
+      - en
+      X-Request-Id:
+      - unique_id
+  response:
+    status:
+      code: 404
+      message: ''
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+      X-Request-Id:
+      - unique_id
+      X-Runtime:
+      - '0.007610'
+    body:
+      encoding: UTF-8
+      string: '{"message":"Not found"}'
+    http_version:
+  recorded_at: Wed, 21 Sep 2016 15:43:25 GMT
+- request:
+    method: get
+    uri: http://localhost:4000/api/prisons/missing
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.56.0
+      Accept:
+      - application/json
+      Accept-Language:
+      - en
+      X-Request-Id:
+      - unique_id
+  response:
+    status:
+      code: 404
+      message: ''
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+      X-Request-Id:
+      - unique_id
+      X-Runtime:
+      - '0.006821'
+    body:
+      encoding: UTF-8
+      string: '{"message":"Not found"}'
+    http_version:
+  recorded_at: Wed, 21 Sep 2016 15:43:25 GMT
+recorded_with: VCR 3.0.1
